@@ -7,6 +7,7 @@ def set_color_cast(x):
     global color_cast
     color_cast = x
 
+
 cv2.namedWindow("Slider")
 cv2.resizeWindow("Slider", 350, 350)
 backGround = 0
