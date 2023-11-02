@@ -23,7 +23,7 @@ cv2.createTrackbar("Change Background", "Slider", 0, 1, set_color_cast)
 
 
 cap = cv2.VideoCapture("input/foreground.mp4")
-cap2 = cv2.VideoCapture("output/background.mp4")
+cap2 = cv2.VideoCapture("input/background.mp4")
 
 # fps = int(cap.get(cv2.CAP_PROP_FPS))
 # out = cv2.VideoWriter("output.mp4", cv2.VideoWriter.fourcc(*'.mp4'), fps, (1920, 1080))
